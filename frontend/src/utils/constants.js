@@ -1,5 +1,5 @@
 // API URL
-export const API_URL = "http://localhost:3000";
+export const API_URL = "https://bell-crop-backend.onrender.com";
 
 // Category options
 export const CATEGORIES = [
