@@ -1,0 +1,100 @@
+/* Auth Pages */
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+.authCard {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--gray-700);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-2xl);
+  max-width: 450px;
+  width: 100%;
+  box-shadow: var(--shadow-xl);
+  animation: scaleIn 0.4s ease;
+}
+
+.authHeader {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.authHeader h1 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.authHeader h2 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.authHeader p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.errorAlert {
+  padding: var(--spacing-md);
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: var(--border-radius-sm);
+  color: #ef4444;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.authFooter {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--gray-700);
+}
+
+.authFooter p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.authLink {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.authLink:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .authCard {
+    padding: var(--spacing-xl);
+  }
+
+  .authHeader h1 {
+    font-size: 1.75rem;
+  }
+
+  .authHeader h2 {
+    font-size: 1.25rem;
+  }
+}
