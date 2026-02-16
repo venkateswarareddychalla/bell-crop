@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useTransactions } from "../../context/TransactionContext";
+import { useTransactions } from "../../Context/TransactionContext";
 import { CATEGORIES } from "../../utils/constants";
 import { formatDateForInput } from "../../utils/formatters";
 import Input from "../../components/UI/Input";

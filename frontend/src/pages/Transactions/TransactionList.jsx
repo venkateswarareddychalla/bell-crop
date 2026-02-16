@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import Navbar from "../../components/Layout/Navbar";
-import { useTransactions } from "../../context/TransactionContext";
+import { useTransactions } from "../../Context/TransactionContext";
 import Button from "../../components/UI/Button";
 import Modal from "../../components/UI/Modal";
 import Toast from "../../components/UI/Toast";

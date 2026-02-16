@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { formatCurrency, formatDate } from "../../utils/formatters";
-import { useTransactions } from "../../context/TransactionContext";
+import { useTransactions } from "../../Context/TransactionContext";
 import Button from "../../components/UI/Button";
 import styles from "./Transactions.module.css";
 

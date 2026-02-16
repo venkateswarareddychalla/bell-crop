@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Layout/Navbar";
-import { useTransactions } from "../../context/TransactionContext";
+import { useTransactions } from "../../Context/TransactionContext";
 import SearchBar from "./SearchBar";
 import Filters from "./Filters";
 import TransactionGrid from "./TransactionGrid";

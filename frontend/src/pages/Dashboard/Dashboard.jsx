@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useTransactions } from "../../context/TransactionContext";
+import { useTransactions } from "../../Context/TransactionContext";
 import Navbar from "../../components/Layout/Navbar";
 import SummaryCard from "./SummaryCard";
 import CategoryChart from "./CategoryChart";
